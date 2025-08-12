@@ -1,0 +1,47 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="screen-orientation" content="landscape" />
+<meta name="x5-orientation" content="landscape" />
+<meta name="orientation" content="landscape" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>Loza's Summer Escape</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+  <canvas id="game"></canvas>
+
+  <!-- On-screen controls (right side) -->
+  
+
+  <!-- Top-left audio play button -->
+  <button id="playBg" class="small-btn">Play Music ▶</button>
+
+  <!-- Victory modal -->
+  <div id="winModal" class="hidden">
+    <div id="winBox">
+      <h2>LOZA — I will miss u<br/>Enjoy your vacation, my love.</h2>
+      <button id="playVictory">Play Birds of a Feather</button>
+      <button id="restartBtn">Play Again</button>
+    </div>
+  </div>
+</div>
+
+<script src="game.js"></script>
+
+<div id="controls">
+  <div class="arrow-row">
+    <button id="upBtn" class="control">▲</button>
+  </div>
+  <div class="arrow-row">
+    <button id="leftBtn" class="control">◀︎</button>
+    <button id="downBtn" class="control">▼</button>
+    <button id="rightBtn" class="control">▶︎</button>
+  </div>
+</div>
+
+</body>
+</html>
